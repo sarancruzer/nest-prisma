@@ -40,12 +40,6 @@ async function bootstrap() {
   Logger.log(`Application is running on: ${await app.getUrl()}`);
   Logger.log(`Application is running in : ${await config.get('ENVIRONMENT')} mode`);
 
-  Logger.log(`Application is running on: ${await app.getUrl()}`);
-  Logger.log(`Application is running in : ${await config.get('ENVIRONMENT')} mode`);
-
-  Logger.log(`Application is running on: ${await app.getUrl()}`);
-  Logger.log(`Application is running in : ${await config.get('ENVIRONMENT')} mode`);
-
   
 }
 bootstrap();
